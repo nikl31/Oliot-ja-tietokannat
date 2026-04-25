@@ -3,7 +3,6 @@ from menu import Menu
 class Main:
     def __init__(self) -> None:
         print("Program starting.")
-        print()
         
         menu = Menu()
         running = True
@@ -11,6 +10,7 @@ class Main:
         while running:
             menu.show()
             choice = input("Your choice: ")
+            
             running = menu.handle_choice(choice)
             
         print("Program ending.")
