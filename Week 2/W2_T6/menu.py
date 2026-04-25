@@ -17,6 +17,7 @@ class Menu:
             print("Creating soda bottle.")
             brand = input("Insert brand: ")
             volume = float(input("Insert volume: "))
+            print()
             self.bottles.append(SodaBottle(brand, volume))
 
         elif choice == "2":
@@ -39,6 +40,7 @@ class Menu:
             file.close()
 
             print("Saving completed!")
+            print()
 
         elif choice == "0":
             print("\nExiting program.")
