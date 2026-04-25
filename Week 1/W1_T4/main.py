@@ -7,18 +7,18 @@ class Main:
         ca = CoinAcceptor()
 
         while True:
-            print("1 - Insert coin\n")
+            print("1 - Insert coin")
             print("2 - Show coins")
             print("3 - Return coins")
             print("0 - Exit program")
 
-            choice = input("Your choice: ")
+            choice = input("Your choice: \n")
 
             if choice == "1":
                 ca.insertCoin()
 
             elif choice == "2":
-                print(f"Currently '{ca.getAmount()}' coins in coin acceptor\n")
+                print(f"\nCurrently '{ca.getAmount()}' coins in coin acceptor\n")
 
             elif choice == "3":
                 returned = ca.returnCoins()
