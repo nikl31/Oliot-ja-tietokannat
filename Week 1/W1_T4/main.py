@@ -14,8 +14,6 @@ class Main:
 
             choice = input("Your choice: ")
 
-            print()
-
             if choice == "1":
                 ca.insertCoin()
 
