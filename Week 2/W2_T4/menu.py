@@ -16,6 +16,7 @@ class Menu:
             print("Creating soda bottle.")
             brand = input("Insert brand: ")
             volume = float(input("Insert volume: "))
+            print()
             bottle = SodaBottle(brand, volume)
             self.bottles.append(bottle)
 
@@ -26,6 +27,7 @@ class Menu:
                 print(f"  brand - {bottle.brand}")
                 print(f"  volume - {bottle.volume}")
             print("#### Soda bottles ####")
+            print()
 
         elif choice == "3":
             print("'save' not implemented yet.")
