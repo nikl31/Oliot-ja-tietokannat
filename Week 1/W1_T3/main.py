@@ -1,3 +1,5 @@
+from counter import Counter
+
 class Main:
     def init(self) -> None:
         print("Program starting.")
