@@ -1,7 +1,8 @@
 from car import Car
 
 
-class Main():
+class Main:
+    def __init__(self) -> None:
     print("Program starting.")
     print("Initializing three car objects.")
 
