@@ -27,6 +27,7 @@ class Menu:
                 print(f"  brand - {bottle.brand}")
                 print(f"  volume - {bottle.volume}")
             print("#### Soda bottles ####")
+            print()
 
         elif choice == "3":
             print("Saving soda bottles...")
