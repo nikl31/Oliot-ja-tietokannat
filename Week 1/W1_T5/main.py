@@ -1,36 +1,34 @@
 from coin_acceptor import CoinAcceptor
 
-
 class Main:
     def __init__(self) -> None:
         print("Program starting.")
         print("Welcome to coin acceptor program.")
-        print("Insert new coin by typing it's value (0 returns the money, -1 exits the program)")
-
+        print("Insert new coin by typing it's value (0 returns the money, -1 exits the program)\n")
+        
         ca = CoinAcceptor()
-
+        
         while True:
-            choice = input("\nInsert coin(0 return, -1 exit): ")
-
-            if choice == "-1":
-                print("Exiting program.")
+            coin = float(input("Insert coin(0 return, -1 exit): "))
+            
+            if coin == -1:
+                print("Exiting program.\n")
                 break
-
-            value = float(choice)
-
-            if value == 0:
+            
+            elif coin == 0:
                 print("Returning coins...")
-                coins, total = ca.returnCoins()
-                print(f"{coins} coins with {total}€ value returned.")
-                print(f"Inserted coins - {ca.getAmount()}, value - {ca.getValue()}€")
-
+                coins, value = ca.returnCoins()
+                print(f"{coins} coins with {value}€ value returned.")
+                print(f"Inserted coins - {ca.getAmount()}, value - {ca.getValue()}€\n")
+                
             else:
                 print("Inserting...")
-                ca.insertCoin(value)
-                print(f"Inserted coins - {ca.getAmount()}, value - {ca.getValue()}€")
+                ca.insertCoin(coin)
+                print(f"Inserted coins - {ca.getAmount()}, value - {ca.getValue()}€\n")
+                
+        print("Program ending.")
 
-        print("\nProgram ending.")
-
+        return None
 
 if __name__ == "__main__":
     app = Main()
