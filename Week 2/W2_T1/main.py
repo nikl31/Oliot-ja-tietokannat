@@ -1,7 +1,8 @@
 from soda_bottle import SodaBottle
 
 
-class Main():
+class Main:
+    def __init__(self) -> None:
     print("Program starting.")
     print("Constructing soda bottle.")
 
@@ -19,6 +20,7 @@ class Main():
     print(serialized)
 
     print("Program ending.")
+    return None
 
 
 if __name__ == "__main__":
