@@ -7,10 +7,11 @@ class Main:
         ca = CoinAcceptor()
 
         while True:
-            print("1 - Insert coin")
-            print("2 - Show coins")
-            print("3 - Return coins")
-            print("0 - Exit program")
+            print("\nOptions:")
+            print("1) - Insert coin")
+            print("2) - Show coins")
+            print("3) - Return coins")
+            print("0) - Exit program")
 
             choice = input("Your choice: ")
 
