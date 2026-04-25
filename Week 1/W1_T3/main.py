@@ -4,6 +4,7 @@ class Main:
     def __init__(self) -> None:
         print("Program starting.")
         print("Initializing counter...")
+
         counter = Counter()
 
         print("Counter initialized.")
@@ -14,7 +15,7 @@ class Main:
             print("2) Get count")
             print("3) Zero count")
             print("0) Exit program")
-
+            
             choice = input("Choice: ")
 
             if choice == "1":
@@ -23,19 +24,19 @@ class Main:
 
             elif choice == "2":
                 print(f"Current count '{counter.getCount()}'")
-              
+
             elif choice == "3":
                 counter.zeroCount()
                 print("Count zeroed")
-            
+
             elif choice == "0":
                 print("\nProgram ending.")
                 break
-            
-          else:
-            print("Invalid option.")
 
-            return None
-        
+            else:
+                print("Invalid option.")
+
+                return None
+
 if name == "main":
     app = Main()
