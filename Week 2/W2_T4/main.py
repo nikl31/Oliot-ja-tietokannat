@@ -1,7 +1,7 @@
 from menu import Menu
 
 class Main:
-    def __init__(self) -> None:
+    def __init__(self):
         print("Program starting.")
         
         menu = Menu()
@@ -12,9 +12,7 @@ class Main:
             choice = input("Your choice: ")
             running = menu.handle_choice(choice)
             
-            print("Program ending.")
-
-            return None
+        print("Program ending.")
 
 
 if __name__ == "__main__":
