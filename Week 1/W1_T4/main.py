@@ -22,7 +22,7 @@ class Main:
 
             elif choice == "3":
                 returned = ca.returnCoins()
-                print(f"Coin acceptor returned '{returned}' coins.")
+                print(f"Coin acceptor returned '{returned}' coins.\n")
 
             elif choice == "0":
                 print("\nProgram ending.")
