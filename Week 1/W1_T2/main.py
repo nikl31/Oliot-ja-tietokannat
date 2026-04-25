@@ -1,7 +1,7 @@
 from car import Car
 
 
-def main():
+class Main():
     print("Program starting.")
     print("Initializing three car objects.")
 
@@ -27,4 +27,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app = Main()
