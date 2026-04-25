@@ -22,7 +22,7 @@ def main():
             print("Count increased")
 
         elif choice == "2":
-            print(f"Current count '{counter.getCount()}'")
+            print(f"Current count: {counter.getCount()}")
 
         elif choice == "3":
             counter.zeroCount()
