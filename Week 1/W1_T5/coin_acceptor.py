@@ -13,9 +13,11 @@ class CoinAcceptor:
     def getValue(self) -> float:
         return self.__value
 
-    def returnCoins(self) -> tuple:
+    def returnCoins(self):
         coins = self.__amount
         value = self.__value
+
         self.__amount = 0
         self.__value = 0.0
+
         return coins, value
