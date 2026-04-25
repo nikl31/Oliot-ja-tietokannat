@@ -2,6 +2,7 @@ from car import Car
 
 
 def main():
+    def __init__(self) -> None:
     print("Program starting.")
     print("Initializing three car objects.")
 
