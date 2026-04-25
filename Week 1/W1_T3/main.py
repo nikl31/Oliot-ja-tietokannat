@@ -4,6 +4,7 @@ class Main:
     def __init__(self) -> None:
         print("Program starting.")
         print("Initializing counter...")
+        
         counter = Counter()
 
         print("Counter initialized.")
@@ -35,9 +36,6 @@ class Main:
             else:
                 print("Invalid option.")
 
-                return None
-
-            
-            
+                    
 if __name__ == "__main__":
     Main()
