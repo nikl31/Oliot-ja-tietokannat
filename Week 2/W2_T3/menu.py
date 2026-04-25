@@ -1,6 +1,6 @@
 class Menu:
     def show(self):
-        print("\nMenu:")
+        print("Menu:")
         print("1 - Add bottle")
         print("2 - Show bottle")
         print("3 - Save bottle")
