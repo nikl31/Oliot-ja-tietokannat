@@ -1,42 +1,36 @@
 from counter import Counter
 
 class Main:
-    def init(self) -> None:
+    def __init__(self):
         print("Program starting.")
         print("Initializing counter...")
-
-        counter = Counter()
-
+        self.my_count: Counter = Counter()
         print("Counter initialized.")
-
         while True:
             print("\nOptions:")
             print("1) Add count")
             print("2) Get count")
             print("3) Zero count")
             print("0) Exit program")
-
-            choice = input("Choice: ")
-
-            if choice == "1":
-                counter.addCount()
-                print("Count increased")
-
-            elif choice == "2":
-                print(f"Current count '{counter.getCount()}'")
-
-            elif choice == "3":
-                counter.zeroCount()
-                print("Count zeroed")
-
-            elif choice == "0":
+            try:
+                choice = int(input("Choice: "))
+            except ValueError:
+                print("Invalid input! Expected an integer!")
+                continue
+            if choice == 0:
                 print("\nProgram ending.")
                 break
-
+            elif choice == 1:
+                self.my_count.addCount()
+                print("Count increased")
+            elif choice == 2:
+                cur_value = self.my_count.getCount()
+                print(f"Current count '{cur_value}'")
+            elif choice == 3:
+                self.my_count.zeroCount()
+                print("Count zeroed")
             else:
-                print("Invalid option.")
+                print("Expected numbers between 0 and 4!")
 
-                return None
-
-if name == "main":
-    app = Main()
+if __name__ == "__main__":
+    Main()
