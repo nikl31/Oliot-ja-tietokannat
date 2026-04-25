@@ -10,11 +10,12 @@ class Main:
         while running:
             menu.show()
             choice = input("Your choice: ")
+            
             running = menu.handle_choice(choice)
             
         print("Program ending.")
 
-       return None
+        return None
 
 if __name__ == "__main__":
     app = Main()
