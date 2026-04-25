@@ -1,7 +1,7 @@
 from soda_bottle import SodaBottle
 
 
-def main():
+class Main():
     print("Program starting.")
     print("Constructing soda bottle.")
 
@@ -22,4 +22,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app = Main()
