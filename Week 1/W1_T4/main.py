@@ -12,7 +12,7 @@ class Main:
             print("3 - Return coins")
             print("0 - Exit program")
 
-            choice = input("Your choice: ")
+            choice = input("\nYour choice: ")
 
             if choice == "1":
                 ca.insertCoin()
