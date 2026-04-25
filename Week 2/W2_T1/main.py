@@ -1,6 +1,5 @@
 from soda_bottle import SodaBottle
 
-
 def main():
     print("Program starting.")
     print("Constructing soda bottle.")
@@ -13,10 +12,8 @@ def main():
     print("SodaBottle object created!")
     print("Serializing SodaBottle object.")
 
-    serialized = bottle.serialize()
-
     print("Serialized sodabottle:")
-    print(serialized)
+    print(bottle.serialize())
 
     print("Program ending.")
 
