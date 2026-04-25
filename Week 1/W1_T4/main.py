@@ -3,10 +3,11 @@ from coin_acceptor import CoinAcceptor
 
 def oo_main_structure():
     print("Program starting.")
+
     ca = CoinAcceptor()
 
     while True:
-        print("\n1 - Insert coin")
+        print("1 - Insert coin")
         print("2 - Show coins")
         print("3 - Return coins")
         print("0 - Exit program")
