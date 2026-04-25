@@ -9,12 +9,16 @@ class Menu:
     def handle_choice(self, choice: str):
         if choice == "1":
             print("'Add bottle' not implemented yet.")
+            print()
         elif choice == "2":
             print("'Show bottle' not implemented yet.")
+            print()
         elif choice == "3":
             print("'Save bottle' not implemented yet.")
+            print()
         elif choice == "0":
             print("\nExiting program.")
+            print()
             return False
         else:
             print("Unknown option, try again.")
