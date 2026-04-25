@@ -12,17 +12,17 @@ class Main:
 
         print("Car objects initialized.")
 
-        car1.start()
         print("Starting the first car object.")
+        car1.start()
 
-        car2.start()
         print("Starting the second car object.")
+        car2.start()
         
-        car3.start()
         print("Starting the third car object.")
+        car3.start()
         
-        car3.start()
         print("Starting the third car object.")
+        car3.start()
 
         print("Program ending.")
         return None
