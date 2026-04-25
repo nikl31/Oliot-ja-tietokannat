@@ -1,6 +1,6 @@
 from person import Person
 
-class main:
+class Main:
     def __init__(self) -> None:
         print("Program starting.")
         print("Creating person...")
@@ -25,4 +25,4 @@ class main:
 
 
 if __name__ == "__main__":
-    app = main()    
+    app = Main()    
