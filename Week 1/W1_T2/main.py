@@ -1,6 +1,3 @@
-from car import Car
-
-
 class Main:
     def __init__(self) -> None:
         print("Program starting.")
