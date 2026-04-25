@@ -12,17 +12,19 @@ class Main:
             print("3 - Return coins")
             print("0 - Exit program")
 
-            choice = input("Your choice: \n")
+            choice = input("Your choice: ")
 
             if choice == "1":
                 ca.insertCoin()
 
             elif choice == "2":
-                print(f"Currently '{ca.getAmount()}' coins in coin acceptor\n")
+                print(f"Currently '{ca.getAmount()}' coins in coin acceptor")
+                print()
 
             elif choice == "3":
                 returned = ca.returnCoins()
-                print(f"Coin acceptor returned '{returned}' coins.\n")
+                print(f"Coin acceptor returned '{returned}' coins.")
+                print()
 
             elif choice == "0":
                 print("\nProgram ending.")
