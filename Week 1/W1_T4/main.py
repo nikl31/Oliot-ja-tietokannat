@@ -7,7 +7,6 @@ def oo_main_structure():
     ca = CoinAcceptor()
 
     while True:
-        # 🔥 MENU ENNEN INPUTTIA (TÄRKEIN SÄÄNTÖ)
         print("1 - Insert coin")
         print("2 - Show coins")
         print("3 - Return coins")
