@@ -1,5 +1,6 @@
 from coin_acceptor import CoinAcceptor
 
+
 def main():
     print("Program starting.")
 
