@@ -10,7 +10,6 @@ class Main:
         print("Counter initialized.")
 
         while True:
-            print("\nOptions:")
             print("1) Add count")
             print("2) Get count")
             print("3) Zero count")
