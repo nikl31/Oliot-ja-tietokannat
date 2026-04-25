@@ -1,32 +1,32 @@
 from coin_acceptor import CoinAcceptor
 
-def menu():
-    print("\n1 - Insert coin")
-    print("2 - Show coins")
-    print("3 - Return coins")
-    print("0 - Exit program")
 
-def main():
+def oo_main_structure():
     print("Program starting.")
-    coin_acceptor = CoinAcceptor()
+    ca = CoinAcceptor()
 
     while True:
-        menu()
+        print("\n1 - Insert coin")
+        print("2 - Show coins")
+        print("3 - Return coins")
+        print("0 - Exit program")
+
         choice = input("Your choice: ")
 
         if choice == "1":
-            coin_acceptor.insertCoin()
+            ca.insertCoin()
 
         elif choice == "2":
-            print(f"Currently '{coin_acceptor.getAmount()}' coins in coin acceptor")
+            print(f"Currently '{ca.getAmount()}' coins in coin acceptor")
 
         elif choice == "3":
-            returned = coin_acceptor.returnCoins()
+            returned = ca.returnCoins()
             print(f"Coin acceptor returned '{returned}' coins.")
 
         elif choice == "0":
             print("Program ending.")
             break
 
+
 if __name__ == "__main__":
-    main()
+    oo_main_structure()
