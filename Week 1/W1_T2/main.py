@@ -12,20 +12,20 @@ class Main:
 
         print("Car objects initialized.")
 
-        print("Starting the first car object.")
         car1.start()
+        print("Starting the first car object.")
 
-        print("Starting the second car object.")
         car2.start()
-
-        print("Starting the third car object.")
+        print("Starting the second car object.")
+        
         car3.start()
-
         print("Starting the third car object.")
+        
         car3.start()
+        print("Starting the third car object.")
 
         print("Program ending.")
-
+        return None
 
 if __name__ == "__main__":
     Main()
