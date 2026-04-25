@@ -18,7 +18,6 @@ class Menu:
             print()
         elif choice == "0":
             print("Exiting program.")
-            print()
             return False
         else:
             print("Unknown option, try again.")
