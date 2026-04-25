@@ -17,9 +17,10 @@ class Menu:
             print("'Save bottle' not implemented yet.")
             print()
         elif choice == "0":
-            print("\nExiting program.")
+            print("Exiting program.")
             print()
             return False
         else:
             print("Unknown option, try again.")
+            print()
         return True
