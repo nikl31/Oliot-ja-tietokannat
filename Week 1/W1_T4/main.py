@@ -7,7 +7,7 @@ class Main:
         ca = CoinAcceptor()
 
         while True:
-            print("1 - Insert coin")
+            print("\n1 - Insert coin")
             print("2 - Show coins")
             print("3 - Return coins")
             print("0 - Exit program")
@@ -22,7 +22,7 @@ class Main:
 
             elif choice == "3":
                 returned = ca.returnCoins()
-                print(f"Coin acceptor returned '{returned}' coins.")
+                print(f"\nCoin acceptor returned '{returned}' coins.")
 
             elif choice == "0":
                 print("\nProgram ending.")
