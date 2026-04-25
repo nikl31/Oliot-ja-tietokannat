@@ -7,6 +7,7 @@ class Main:
         ca = CoinAcceptor()
 
         while True:
+            print()
             print("1 - Insert coin")
             print("2 - Show coins")
             print("3 - Return coins")
