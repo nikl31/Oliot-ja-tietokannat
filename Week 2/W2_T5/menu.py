@@ -30,7 +30,6 @@ class Menu:
 
         elif choice == "3":
             print("Saving soda bottles...")
-            print()
 
             rows = []
             for bottle in self.bottles:
@@ -43,6 +42,7 @@ class Menu:
             file.close()
 
             print("Saving completed!")
+            print()
 
         elif choice == "0":
             print("\nExiting program.")
