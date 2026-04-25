@@ -12,11 +12,11 @@ class Main:
             print("3 - Return coins")
             print("0 - Exit program")
 
-            print()
             choice = input("Your choice: ")
 
             if choice == "1":
                 ca.insertCoin()
+                print()
 
             elif choice == "2":
                 print(f"Currently '{ca.getAmount()}' coins in coin acceptor")
