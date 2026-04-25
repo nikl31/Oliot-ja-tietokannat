@@ -18,7 +18,7 @@ class Main:
                 ca.insertCoin()
 
             elif choice == "2":
-                print(f"\nCurrently '{ca.getAmount()}' coins in coin acceptor\n")
+                print(f"Currently '{ca.getAmount()}' coins in coin acceptor\n")
 
             elif choice == "3":
                 returned = ca.returnCoins()
