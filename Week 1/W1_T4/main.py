@@ -19,15 +19,13 @@ class Main:
 
             elif choice == "2":
                 print(f"Currently '{ca.getAmount()}' coins in coin acceptor")
-                print()
 
             elif choice == "3":
                 returned = ca.returnCoins()
                 print(f"Coin acceptor returned '{returned}' coins.")
-                print()
 
             elif choice == "0":
-                print("\nProgram ending.")
+                print("Program ending.")
                 break
 
             else:
