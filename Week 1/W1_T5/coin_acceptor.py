@@ -1,7 +1,7 @@
 class CoinAcceptor:
     def __init__(self):
         self.__amount = 0
-        self.__value = 0.0
+        self.__value = 0
 
     def insertCoin(self, value: float) -> None:
         self.__amount += 1
@@ -18,6 +18,6 @@ class CoinAcceptor:
         value = self.__value
 
         self.__amount = 0
-        self.__value = 0.0
+        self.__value = 0
 
         return coins, value
