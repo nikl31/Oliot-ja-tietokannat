@@ -19,22 +19,21 @@ def main():
 
         if choice == "1":
             counter.addCount()
-            print("Count increased.")
+            print("Count increased")
 
         elif choice == "2":
-            print(f"Current count: {counter.getCount()}")
+            print(f"Current count '{counter.getCount()}'")
 
         elif choice == "3":
             counter.zeroCount()
-            print("Count zeroed.")
+            print("Count zeroed")
 
         elif choice == "0":
             print("\nProgram ending.")
             break
 
         else:
-            print("Invalid choice. Please select 0–3.")
-
+            print("Invalid choice, try again.")
 
 if __name__ == "__main__":
     main()
