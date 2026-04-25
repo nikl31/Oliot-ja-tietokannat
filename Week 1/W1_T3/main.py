@@ -38,5 +38,5 @@ class Main:
 
                 return None
 
-if name == "main":
+if __name__ == "__main__":
     app = Main()
