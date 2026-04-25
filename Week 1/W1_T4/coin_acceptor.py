@@ -5,7 +5,7 @@ class CoinAcceptor:
 
     def insertCoin(self):
         self.__amount += 1
-        self.__value += 1.0  # oletetaan 1 coin = 1.0 arvo
+        self.__value += 1.0 
 
     def getAmount(self) -> int:
         return self.__amount
